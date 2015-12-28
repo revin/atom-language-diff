@@ -1,0 +1,21 @@
+{
+  "name": "atom-language-diff",
+  "version": "0.1.0",
+  "description": "Syntax support for diffs in Atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revin/atom-language-diff.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/revin/atom-language-diff/issues"
+  },
+  "homepage": "https://github.com/revin/atom-language-diff#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
