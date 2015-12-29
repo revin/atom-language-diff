@@ -15,7 +15,5 @@
     "url": "https://github.com/revin/atom-language-diff/issues"
   },
   "homepage": "https://github.com/revin/atom-language-diff#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "scripts": {}
 }
