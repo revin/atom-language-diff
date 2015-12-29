@@ -2,6 +2,7 @@
   "name": "atom-language-diff",
   "version": "0.1.0",
   "description": "Syntax support for diffs in Atom",
+  "main": "tokens.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/revin/atom-language-diff.git"
@@ -10,10 +11,18 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cson": "^3.0.2",
+    "lodash.compact": "^3.0.0",
+    "lodash.flatten": "^3.0.2",
+    "lodash.map": "^3.1.4",
+    "lodash.uniq": "^3.2.2"
+  },
   "bugs": {
     "url": "https://github.com/revin/atom-language-diff/issues"
   },
   "homepage": "https://github.com/revin/atom-language-diff#readme",
-  "scripts": {}
+  "scripts": {
+    "prepublish": "node build.js"
+  }
 }
