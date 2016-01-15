@@ -1,6 +1,6 @@
 {
   "name": "atom-language-diff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Syntax support for diffs in Atom",
   "main": "tokens.json",
   "repository": {
